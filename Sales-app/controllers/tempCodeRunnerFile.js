@@ -1,0 +1,1 @@
+            res.json({msg:'Registerd Successfully!'})
