@@ -1,3 +1,9 @@
 {
-    "git.ignoreLimitWarning": true
+    "git.ignoreLimitWarning": true,
+    "appService.zipIgnorePattern": [
+        "node_modules{,/**}",
+        ".vscode{,/**}"
+    ],
+    "appService.defaultWebAppToDeploy": "/subscriptions/4fc46909-eee3-450b-ab22-1b493bc06ce9/resourceGroups/appsvc_linux_centralus/providers/Microsoft.Web/sites/sales-app25",
+    "appService.deploySubpath": "."
 }

@@ -1,0 +1,13 @@
+$theme-colors: (
+    "primary":#0C9ACC, 
+    "secondary":#5E54F1,
+
+);
+.actions{
+    position: absolute;
+    left: 50%
+    
+}
+
+
+@import "~bootstrap/scss/bootstrap";

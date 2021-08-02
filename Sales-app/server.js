@@ -16,9 +16,9 @@ app.use(fileupload({
 
 //Routes
 app.use('/user',require('./routes/userRouter'))
-app.use('/api',require('./routes/categoryRouter'))
-app.use('/api',require('./routes/upload'))
-app.use('/api',require('./routes/productRouter'))
+app.use('/api/categoryRouter',require('./routes/categoryRouter'))
+app.use('/api/upload',require('./routes/upload'))
+app.use('/api/productRouter',require('./routes/productRouter'))
 
 const PORT=process.env.PORT||3000
 app.listen(PORT,()=>{
